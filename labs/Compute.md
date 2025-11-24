@@ -1,92 +1,49 @@
+# Setting up and launching an EC2 instance
 
-  LAB ASSESSMENTS : EC2
+## Topics covered
+1. Launch a web server with termination protection enabled
 
-I did a lab that provided me with a basic overview of launching, resizing, managing, and monitoring an Amazon EC2 instance. 
-After doing the lab, the outcome was to learn the following
+2. Monitor Your EC2 instance
 
-- Launch a web server with termination protection enabled
+3. Modify the security group that your web server is using to allow HTTP access
 
-- Monitor Your EC2 instance
+4. Resize your Amazon EC2 instance to scale
 
-- Modify the security group that your web server is using to allow HTTP access
+5. Test termination protection
 
-- Resize your Amazon EC2 instance to scale
+6. Terminate your EC2 instance
 
-- Test termination protection
+## Launch a web server with termination protection enabled
+In this task, you will launch an Amazon EC2 instance with termination protection. Termination protection prevents you from accidentally terminating an EC2 instance. You will deploy your instance with a User Data script that will allow you to deploy a simple web server. In the AWS Management Console on the Services menu, choose EC2. In the left navigation pane, choose EC2 Dashboard to ensure that you are on the dashboard page. Choose Launch instance, and then select Launch instance.
 
-- Terminate your EC2 instance
+## Choosing an Amazon Machine Image (AMI)
+An AMI provides the information required to launch an instance, which is a virtual server in the cloud. An AMI includes the following: A template for the root volume for the instance (for example, an operating system or an application server with applications) Launch permissions that control which AWS accounts can use the AMI to launch instances A block device mapping that specifies the volumes to attach to the instance when it is launched The Quick Start list contains the most commonly used AMIs. You can also create your own AMI or select an AMI from the AWS Marketplace, an online store where you can sell or buy software that runs on AWS. Locate the Application and OS Images (Amazon Machine Image) pane. Under AMI Machine Image (AMI), notice that the Amazon Linux 2023* image is selected by default. Keep this setting.
 
-  I had to start the lab
-  Launch the instance on the EC2
-   <img width="1600" height="900" alt="#" src="#" />
+## Choosing an instance type
+Amazon EC2 provides a wide selection of instance types optimized to fit different use cases. Instance types comprise varying combinations of CPU, memory, storage, and networking capacity and give you the flexibility to choose the appropriate mix of resources for your applications. Each instance type includes one or more instance sizes so that you can scale your resources to the requirements of your target workload.
 
-  TASK 1 :
-  LAUNCH EC2 INSTANCE
-  
-  Under task one i had to follow this steps below to get tHe required outcome
+## Configuring the network settings
+The VPC indicates which virtual private cloud (VPC) you want to launch the instance into. You can have multiple VPCs, including different ones for development, testing, and production. In the Network settings pane, choose Edit For VPC - required, select Lab VPC. Still in the Network settings pane, configure the Security Group as follows: Security group name - required: Web Server security group Description: Security group for my web server A security group acts as a virtual firewall that controls the traffic for one or more instances. When you launch an instance, you associate one or more security groups with the instance. You add rules to each security group that allow traffic to or from its associated instances. You can modify the rules for a security group at any time; the new rules are automatically applied to all instances that are associated with the security group. Under Inbound security groups rules select the Remove In this lab, you will not log into your instance using SSH. Removing SSH access will improve the security of the instance.
 
--  Name the instance
--  Choose an Amazon machine image
--  Choose an instance type
--  Configure a key pair
--  Configure the network settings
--  Add storage
--  Configure advanced network settings
--  Then finally launch the instance
-  <img width="1600" height="900" alt="#" src="#" />
-   
+## Adding storage
+Amazon EC2 stores data on a network-attached virtual disk called Amazon Elastic Block Store (Amazon EBS). You launch the EC2 instance using a default 8 GiB disk volume. This is your root volume (also known as a boot volume). EC2
 
-  TASK 2 :
-  MONITOR THE INSTANCE
-  
-  under task two, i had to do the following
-  - Monitor and troubleshoot to get the this outcome
-    THIS IS THE OUTCOME
-    <img width="1600" height="900" alt="#" src="#" />
+## Configuring advanced details
+Expand the Advanced details pane. Select the dropdown for Termination protection, then choose Enable. When you launch an instance in Amazon EC2, you have the option of passing user data to the instance. These commands can be used to perform common automated configuration tasks and even run scripts after the instance starts. Copy the following commands, and paste them into the User data text box.
 
+#!/bin/bash yum -y install httpd systemctl enable httpd systemctl start httpd echo '
 
-    TASK 3 :
-    UPDATE SECURITY RULES AND ACCESS THE WEB SERVER
-    
-    Under task three i had to do the following
-    - Go to network & security
-    - The select security groups
-    - select inbound rules
-    - Edit the rules with the following : - Type: HTTP      Source: Anywhere-IPv4
-    - Save the rules and reload web server to see the desired outcome.
-      THIS IS THE OUTCOME
-      <img width="1600" height="900" alt="#" src="#" />
-      <img width="1600" height="900" alt="#" src="#" />
+# Hello From Your Web Server!
+' > /var/www/html/index.html
+The script does the following: Install an Apache web server (httpd) Configure the web server to automatically start on boot Activate the Web server Create a simple web page
 
-      
-   
-    TASK 4 :
-    RESIZE YOUR INSTANCE
-    
-    Under task four i had to do the following
-    - Navigate to instance and select the web server you created
-    - Select instance state > Stop instance
-    - Instance must display stopped
-    - Change the instance to t3.small under Actions tab
-    - Resize volume under actions to 10
-    The desired outcome must display the new changes i just did
-     THIS IS THE OUTCOME
-<img width="1600" height="900" alt="#" src="#"/>
+## Launching an EC2 instance
+Now that you have configured your EC2 instance settings, it is time to launch your instance. In the right pane, choose Launch instance Choose View all instances The instance appears in a Pending state, which means it is being launched. It then changes to Running, which indicates that the instance has started booting. There will be a short time before you can access the instance. The instance receives a public DNS name that you can use to contact the instance from the Internet. Select the box next to your Web Server. The Details tab displays detailed information about your instance. To view more information in the Details tab, drag the window divider upward. Review the information displayed in the Details, Security and Networking tabs. Wait for your instance to display the following: Note: Refresh if needed. Instance State: Running Status Checks: 2/2 checks passed
 
+## Monitor Your Instance
+Monitoring is an important part of maintaining the reliability, availability, and performance of your Amazon Elastic Compute Cloud (Amazon EC2) instances and your AWS solutions. Select the instance by checking the box next to the instance and navigate to the bottom of the screen to the Status checks tab. With instance status monitoring, you can quickly determine whether Amazon EC2 has detected any problems that might prevent your instances from running applications. Amazon EC2 performs automated checks on every running EC2 instance to identify hardware and software issues. Notice that both the System reachability and Instance reachability checks have passed. Select the Monitoring tab. This tab displays Amazon CloudWatch metrics for your instance. Currently, there are not many metrics to display because the instance was recently launched. You can choose a graph to see an expanded view. Amazon EC2 sends metrics to Amazon CloudWatch for your EC2 instances. Basic (five-minute) monitoring is enabled by default. You can enable detailed (one-minute) monitoring. In the Actions menu, select Monitor and troubleshoot Get Instance Screenshot. This shows you what your Amazon EC2 instance console would look like if a screen were attached to it.
 
-TASK 5:
-TEST TERMINATION PROCESS
+## Update Your Security Group and Access the Web Server
+When you launched the EC2 instance, you provided a script that installed a web server and created a simple web page. In this task, you will access content from the web server. Select the instance by checking the box and select the Details tab. Copy the Public IPv4 address of your instance to your clipboard. Open a new tab in your web browser, paste the IP address you just copied, then press Enter. Question: Are you able to access your web server? Why not? You are not currently able to access your web server because the security group is not permitting inbound traffic on port 80, which is used for HTTP web requests. This is a demonstration of using a security group as a firewall to restrict the network traffic that is allowed in and out of an instance. To correct this, you will now update the security group to permit web traffic on port 80. Keep the browser tab open, but return to the EC2 Management Console tab. In the left navigation pane, select Security Groups located under Network & Security. Select Web Server security group. Select the Inbound rules tab. The security group currently has no rules.
 
-Under task five i had to do the following
-- Navigate to instance, and then select the web server you just created
-- Under instance menu select the termination delete tab
-- Bescause he it did not work, go to actions > select instance setting > change protection then uncheck ENABLE
-- Go to actions again instance state > terminate instance
-  THIS IS THE OUTCOME
-  <img width="1600" height="900" alt="#" src="#" />
-
-  <img width="1600" height="900" alt="#" src="#" />
-
-
-  Lab Complete 
-
+Select Edit inbound rules then select Add rule and configure the rule with the following settings: Type: HTTP Source: Anywhere-IPv4 Select Save rules Return to the web server tab that you previously opened and refresh the page. You should see the message Hello From Your Web Server!
