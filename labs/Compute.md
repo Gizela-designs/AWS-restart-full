@@ -13,6 +13,9 @@
 
 6. Terminate your EC2 instance
 
+
+
+
 ## Launch a web server with termination protection enabled
 In this task, you will launch an Amazon EC2 instance with termination protection. Termination protection prevents you from accidentally terminating an EC2 instance. You will deploy your instance with a User Data script that will allow you to deploy a simple web server. In the AWS Management Console on the Services menu, choose EC2. In the left navigation pane, choose EC2 Dashboard to ensure that you are on the dashboard page. Choose Launch instance, and then select Launch instance.
 
