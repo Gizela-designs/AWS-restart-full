@@ -4,7 +4,7 @@
 # Cloud Computing Essentials ☁️💡
 I learned the foundational ideas behind Cloud Computing and gained a solid understanding of what AWS really is. I discovered how the cloud operates, why businesses prefer it instead of purchasing their own physical servers, and the major advantages it offers, including reduced costs and the ability to scale easily. I explored the AWS Management Console and became familiar with navigating the different services that AWS provides. This helped me realize that the cloud is simply a collection of powerful computers owned by someone else and made available for us to rent through the internet.
 
-!(https://github.com/Gizela-designs/AWS-restart-full/blob/main/cloud-quest/cloud%20computing%20essentals.PNG?raw=true)
+
 
 # My First Steps 👣
 took my first real steps in AWS by creating and launching my first EC2 instance, better known as a virtual server. I learned how to choose the right size server, pick an operating system, and configure the basic settings. I connected to my server using SSH and ran some commands to make sure everything was working. This taught me that starting a server in the cloud only takes minutes, not weeks like traditional data centers. I also learned to stop and start instances in order to save money.
