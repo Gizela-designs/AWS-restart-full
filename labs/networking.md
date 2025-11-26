@@ -32,4 +32,4 @@ In this lab, you will:
 
 - Create VPC.
 
-![logo](labs/networking images/aws cloud.PNG)
+![logo](labs/networkingImages/awsCloud.PNG)
