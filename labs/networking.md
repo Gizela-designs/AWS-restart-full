@@ -32,4 +32,4 @@ In this lab, you will:
 
 - Create VPC.
 
-![AWS](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/awsCloud.PNG?raw=true)
+
