@@ -20,7 +20,7 @@ I spent time learning how to match different problems with the correct types of 
 # Networking Concepts 🔌
 I learned the fundamentals of networking in AWS and even created my first VPC. I now understand what IP addresses are and the difference between public and private IPs. I also learned how subnets divide a network into smaller sections and how CIDR notation such as slash twenty four shows the size of a subnet and how many devices it can hold. I explored the basics of routing as well and gained an understanding of how data moves from one location to another through routers and gateways.
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/cloud-quest/questimages/networkingconcepts.PNG?raw=true)
 
 # Connecting VPCs 🔗
 I worked on connecting multiple VPCs so they could communicate with each other. I learned how VPC peering creates a private connection between two VPCs without using the internet, allowing them to share resources securely. I configured route tables so traffic could move correctly between the VPCs and adjusted security groups to make sure the right connections were allowed. This helped me understand how large companies link different departments or regions inside AWS while keeping all communication secure and private within the AWS network.
