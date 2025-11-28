@@ -35,7 +35,7 @@ I learned how to calculate and optimize cloud costs. I used the AWS pricing calc
 # Databases in Practice 🗄️💾
 I built my first relational database on Amazon RDS. I learned the difference between having my own database on EC2 and using RDS, where AWS handles backups, updates, and maintenance automatically for me. So I configured database settings like storage size, backup retention, and multi-AZ deployment for high availability. I then connected an application to the database and practiced storing and retrieving data. This taught me that managed databases save a ton of time and effort.
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/cloud-quest/questimages/databasesinpractice.PNG?raw=true)
 
 # First NoSQL Database 📦🚀
 I created my first NoSQL database using Amazon DynamoDB. I learned that NoSQL databases differ from the traditional SQL ones; they are faster, more flexible, and better for specific use cases, such as mobile apps or gaming. I created tables, put items within them with different attributes, and queried data. I found out about such concepts as partition keys, sort keys, and how DynamoDB scales itself automatically to sustain millions of requests. It showed me that not all data needs to be in the traditional table format.
