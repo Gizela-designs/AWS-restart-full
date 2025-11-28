@@ -60,7 +60,7 @@ I created automatic healing and scaling of my application. I learned the use of 
 # Highly Available Web Applications 🌐
 I built a complete, highly available web application that can survive server failures. I used servers deployed across multiple Availability Zones such that if one data center goes down due to problems, my app will remain running in another. I also configured an Elastic Load Balancer to equally distribute traffic between multiple servers and automatically route around failed ones. I then combined this with Auto Scaling Groups, RDS Multi-AZ databases, and S3 for static files to create a fully redundant system. This final quest has taught me how to architect professional, enterprise-grade applications that stay online 24/7 even when things go wrong
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/cloud-quest/questimages/highlyAvailableWebApplications.PNG?raw=true)
 
 # 🎓 What I Learned:
 I began this journey knowing nothing about cloud computing, but through the twelve quests in this class I learned how to build secure, scalable, cost optimized, and highly available applications on AWS. I realized that the cloud is not just about technology but about creating smarter, faster, and more reliable solutions than traditional IT ever could. I now understand what the core AWS services do, how to apply best practices for security and cost management, and how to design applications that can handle real world demands. Completing this course gave me practical, hands on experience that I can confidently use in real cloud projects.✨
