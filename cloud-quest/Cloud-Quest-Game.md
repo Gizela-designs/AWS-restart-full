@@ -4,7 +4,7 @@
 # Cloud Computing Essentials ☁️💡
 I learned the foundational ideas behind Cloud Computing and gained a solid understanding of what AWS really is. I discovered how the cloud operates, why businesses prefer it instead of purchasing their own physical servers, and the major advantages it offers, including reduced costs and the ability to scale easily. I explored the AWS Management Console and became familiar with navigating the different services that AWS provides. This helped me realize that the cloud is simply a collection of powerful computers owned by someone else and made available for us to rent through the internet.
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![cloud computing](https://github.com/Gizela-designs/AWS-restart-full/blob/main/cloud-quest/questimages/cloudcomputingessentals.PNG?raw=true)
 
 
 # My First Steps 👣
