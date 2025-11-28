@@ -40,7 +40,7 @@ The VPC indicates which virtual private cloud (VPC) you want to launch the insta
 ## Adding storage
 Amazon EC2 stores data on a network-attached virtual disk called Amazon Elastic Block Store (Amazon EBS). You launch the EC2 instance using a default 8 GiB disk volume. This is your root volume (also known as a boot volume). EC2
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/Configurestorageneeded.PNG?raw=true)
 
 ## Configuring advanced details
 Expand the Advanced details pane. Select the dropdown for Termination protection, then choose Enable. When you launch an instance in Amazon EC2, you have the option of passing user data to the instance. These commands can be used to perform common automated configuration tasks and even run scripts after the instance starts. Copy the following commands, and paste them into the User data text box.
