@@ -10,7 +10,7 @@ I learned the foundational ideas behind Cloud Computing and gained a solid under
 # My First Steps 👣
 took my first real steps in AWS by creating and launching my first EC2 instance, better known as a virtual server. I learned how to choose the right size server, pick an operating system, and configure the basic settings. I connected to my server using SSH and ran some commands to make sure everything was working. This taught me that starting a server in the cloud only takes minutes, not weeks like traditional data centers. I also learned to stop and start instances in order to save money.
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![first steps](https://github.com/Gizela-designs/AWS-restart-full/blob/main/cloud-quest/questimages/cloudfirststeps.PNG?raw=true)
 
 # Computing Solutions 💻
 I spent time learning how to match different problems with the correct types of EC2 instances. I now understand the differences between general purpose, compute optimized, and memory optimized instances, and I practiced choosing the right one for specific workloads. For example, I saw how a strong CPU based instance is better for heavy calculations, while a memory focused instance works best for databases or applications that need a lot of RAM. I also explored the various pricing options such as On Demand, Reserved, and Spot instances so I can choose the most cost effective option depending on the situation.
