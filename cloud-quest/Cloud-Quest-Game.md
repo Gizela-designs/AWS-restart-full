@@ -25,7 +25,7 @@ I learned the fundamentals of networking in AWS and even created my first VPC. I
 # Connecting VPCs 🔗
 I worked on connecting multiple VPCs so they could communicate with each other. I learned how VPC peering creates a private connection between two VPCs without using the internet, allowing them to share resources securely. I configured route tables so traffic could move correctly between the VPCs and adjusted security groups to make sure the right connections were allowed. This helped me understand how large companies link different departments or regions inside AWS while keeping all communication secure and private within the AWS network.
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![vpc](https://github.com/Gizela-designs/AWS-restart-full/blob/main/cloud-quest/questimages/connectingvpcs.PNG?raw=true)
 
 # Cloud Economics 📊
 I learned how to calculate and optimize cloud costs. I used the AWS pricing calculator to estimate monthly expenses before building anything, which helped me understand how different choices affect the final bill. I explored several cost optimization strategies, such as choosing Reserved Instances for long term stable workloads, using Spot Instances for flexible tasks, and right sizing instances so I do not pay for resources I am not actually using. I also learned about the AWS Free Tier and how to set up billing alarms to avoid unexpected charges. This experience showed me that managing costs is just as important as designing and building cloud solutions.
