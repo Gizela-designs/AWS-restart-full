@@ -13,7 +13,7 @@
 
 6. Terminate your EC2 instance
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/images/ec2(1).PNG?raw=true)
 
 
 
