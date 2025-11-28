@@ -50,7 +50,7 @@ I worked with several storage services in AWS and learned how each one is used. 
 # Core Security Concepts 🛡️
 I learned the fundamental security practices in AWS. I worked with IAM-Identity and Access Management-to create users, groups, and roles with specific permissions, giving access to only those resources that are needed. I have configured the security groups-virtual firewalls-to control who can access my servers and on which ports. I learned about encryption for data at rest and in transit, and why we should never share access keys or passwords. This taught me that security must be built in from the start, not added later.
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/cloud-quest/questimages/coresecurityconcepts.PNG?raw=true)
 
 # Auto Healing and Scaling Applications 📈
 I created automatic healing and scaling of my application. I learned the use of Auto Scaling Groups that add servers automatically when traffic increases and remove them when traffic decreases so I will pay only for what I use. I configured health checks that detect server failures automatically and replace them with new ones without human intervention. Besides, I set up alarms in CloudWatch to monitor performance and scale accordingly. That showed me how the cloud could make applications self-managing and resilient.
