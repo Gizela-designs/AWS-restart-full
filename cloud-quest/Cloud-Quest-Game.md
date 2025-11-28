@@ -45,7 +45,7 @@ I created my first NoSQL database using Amazon DynamoDB. I learned that NoSQL da
 # File Systems in the Cloud 📁
 I worked with several storage services in AWS and learned how each one is used. I used Amazon S3, the Simple Storage Service, to store files such as images, videos, and backups. I discovered that S3 is an object storage service that is extremely durable and very cost effective. I also explored Amazon EFS, the Elastic File System, which works like a shared network drive that many EC2 instances can access at the same time. I learned when each storage type is most suitable, using S3 for static files and backups, EBS for server level hard drives, and EFS for files that need to be shared across multiple servers.
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/cloud-quest/questimages/filesystemsinthecloud.PNG?raw=true)
 
 # Core Security Concepts 🛡️
 I learned the fundamental security practices in AWS. I worked with IAM-Identity and Access Management-to create users, groups, and roles with specific permissions, giving access to only those resources that are needed. I have configured the security groups-virtual firewalls-to control who can access my servers and on which ports. I learned about encryption for data at rest and in transit, and why we should never share access keys or passwords. This taught me that security must be built in from the start, not added later.
