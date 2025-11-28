@@ -35,7 +35,7 @@ Amazon EC2 provides a wide selection of instance types optimized to fit differen
 ## Configuring the network settings
 The VPC indicates which virtual private cloud (VPC) you want to launch the instance into. You can have multiple VPCs, including different ones for development, testing, and production. In the Network settings pane, choose Edit For VPC - required, select Lab VPC. Still in the Network settings pane, configure the Security Group as follows: Security group name - required: Web Server security group Description: Security group for my web server A security group acts as a virtual firewall that controls the traffic for one or more instances. When you launch an instance, you associate one or more security groups with the instance. You add rules to each security group that allow traffic to or from its associated instances. You can modify the rules for a security group at any time; the new rules are automatically applied to all instances that are associated with the security group. Under Inbound security groups rules select the Remove In this lab, you will not log into your instance using SSH. Removing SSH access will improve the security of the instance.
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/NetworkConfiguration.PNG?raw=true)
 
 ## Adding storage
 Amazon EC2 stores data on a network-attached virtual disk called Amazon Elastic Block Store (Amazon EBS). You launch the EC2 instance using a default 8 GiB disk volume. This is your root volume (also known as a boot volume). EC2
