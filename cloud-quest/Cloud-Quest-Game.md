@@ -15,7 +15,7 @@ took my first real steps in AWS by creating and launching my first EC2 instance,
 # Computing Solutions 💻
 I spent time learning how to match different problems with the correct types of EC2 instances. I now understand the differences between general purpose, compute optimized, and memory optimized instances, and I practiced choosing the right one for specific workloads. For example, I saw how a strong CPU based instance is better for heavy calculations, while a memory focused instance works best for databases or applications that need a lot of RAM. I also explored the various pricing options such as On Demand, Reserved, and Spot instances so I can choose the most cost effective option depending on the situation.
 
-![solutions](https://github.com/Gizela-designs/AWS-restart-full/blob/main/cloud-quest/questimages/computingsolutions.PNG)
+![solutions](https://github.com/Gizela-designs/AWS-restart-full/blob/main/cloud-quest/questimages/computingsolutions.PNG?raw=true)
 
 # Networking Concepts 🔌
 I learned the fundamentals of networking in AWS and even created my first VPC. I now understand what IP addresses are and the difference between public and private IPs. I also learned how subnets divide a network into smaller sections and how CIDR notation such as slash twenty four shows the size of a subnet and how many devices it can hold. I explored the basics of routing as well and gained an understanding of how data moves from one location to another through routers and gateways.
