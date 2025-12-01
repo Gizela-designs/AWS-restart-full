@@ -24,7 +24,7 @@ create a DB subnet group that is used to tell RDS which subnets can be used for 
 
 ![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/databasesImages/subnetgroup3.PNG?raw=true)
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/databasesImages/subnetgroups4.PNG?raw=true)
 
 # TASK 3
 configure and launch a Multi-AZ Amazon RDS for MySQL database instance.
