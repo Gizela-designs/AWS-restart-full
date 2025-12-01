@@ -47,7 +47,7 @@ In this lab, you will:
 
 ![6](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/vpc6.PNG?raw=true)
 
-
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/WORKFLOW.PNG?raw=true)
 
 
 ## **Task 2: Response to the Customer – Student-Friendly Version**
