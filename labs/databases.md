@@ -11,7 +11,7 @@ Open a web application and interact with your database.
 # TASK 1
 create a security group to allow your web server to access your RDS DB instance. The security group will be used when you launch the database instance
 
-![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/databasesImages/createsecuritygroup.PNG?raw=true)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/databasesImages/createdatabases.PNG?raw=true)
 
 ![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/databasesImages/createsecuritygroup2.PNG?raw=true)
 
