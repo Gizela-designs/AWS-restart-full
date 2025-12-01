@@ -10,7 +10,7 @@ In this lab, you will:
 - Analyze the difference between a private and public IP address
 - Develop a solution to the customer's issue in this lab
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/customerDiagram.PNG?raw=true)
 
 
 ## Task 1: Investigate the customer's needs
