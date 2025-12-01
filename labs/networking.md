@@ -41,7 +41,7 @@ In this lab, you will:
 
 ![3](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/vpc3.PNG?raw=true)
 
-![4](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![4](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/vpc4.PNG?raw=true)
 
 ![5](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
