@@ -50,9 +50,8 @@ open a web application running on my web server and configure it to use the data
 
 ![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/databasesImages/webserver2.PNG?raw=true)
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/databasesImages/webserver3.PNG?raw=true)
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
 # What I Learned
 
