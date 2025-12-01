@@ -37,7 +37,7 @@ configure and launch a Multi-AZ Amazon RDS for MySQL database instance.
 
 ![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/databasesImages/createdatabases4.PNG?raw=true)
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/databasesImages/createdatabases5.PNG?raw=true)
 
 ![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
