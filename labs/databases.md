@@ -46,7 +46,7 @@ configure and launch a Multi-AZ Amazon RDS for MySQL database instance.
 # TASK 4
 open a web application running on my web server and configure it to use the database
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/databasesImages/webserver1.PNG?raw=true)
 
 ![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
