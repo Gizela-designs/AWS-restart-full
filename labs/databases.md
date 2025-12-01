@@ -13,7 +13,7 @@ create a security group to allow your web server to access your RDS DB instance.
 
 ![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/databasesImages/createsecuritygroup.PNG?raw=true)
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/databasesImages/createsecuritygroup2.PNG?raw=true)
 
 # TASK 2
 create a DB subnet group that is used to tell RDS which subnets can be used for the database. Each DB subnet group requires subnets in at least two Availability Zones
