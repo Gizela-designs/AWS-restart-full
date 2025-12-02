@@ -107,7 +107,7 @@ Activated static website hosting with proper error handling:
 The true strength of the architecture is delivered through CloudFront. I created a distribution that pulls content directly from the S3 website endpoint.
 
 
-| Column One | Column Two | Column Three |
+| Setting | Configuration | Impact |
 |-----------|------------|--------------|
-| Row One A | Row One B  | Row One C    |
-| Row Two A | Row Two B  | Row Two C    |
+| Origin Domain | ember-co.s3-website-us-east-1.amazonaws.com  | Website endpoint (not bucket endpoint) for proper routing    |
+| Distribution Domain | dbmubhcukpnv9.cloudfront.net  | Auto-generated global CDN endpoint    |
