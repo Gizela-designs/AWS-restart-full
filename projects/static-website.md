@@ -60,5 +60,54 @@ Route 53 manages the domain, giving the system reliable, enterprise-level name r
 ## Monitoring:
 CloudWatch tracks performance, logs activity, and helps detect errors or unusual behavior in real time.
 
+# **Implementation Journey**
+
+## **Phase One: Foundation and Provisioning**
+
+**S3 Bucket Creation**
+The initial task is the creation of the S3 bucket in the United States East region in Northern Virginia to ensure optimal integration with CloudFront.
+
+**Configuration** | **Value** | **Reasoning**
+**Bucket Name** | ember co | Clear brand identity and full compatibility with domain naming standards
+**Region** | us east one | Provides the lowest latency for CloudFront with extensive global edge coverage
+**Static Hosting** | Enabled | Allows the bucket to serve index html as the default document
+**Versioning** | Enabled | Supports safe rollbacks and strengthens production stability
+
+**Key Decision:**
+Files are organized into clear and functional folders such as Images CSS and JS to support strong maintainability and reflect the structure of a professional production environment.
+
+# Asset Upload Strategy
 
 
+## Successfully uploaded 71 assets totaling 34MB:
+
+- 45 high-resolution menu images
+- 12 CSS files (including responsive frameworks)
+- 8 JavaScript files (booking logic, animations)
+- 6 HTML pages (homepage, menu, booking, about, contact, confirmation)
+**Upload approach:** Used AWS CLI for batch operations rather than console clicking—faster, repeatable, scriptable.
+
+## **Phase Two: Development Environment Setup**
+
+**Initial Public Access Policy**
+For accelerated development, a temporary bucket policy was configured to allow public read access. This approach enabled quick validation of assets and streamlined early testing.
+
+**This was temporary**. Production required a more secure approach.
+
+## Static Website Hosting Configuration
+
+Activated static website hosting with proper error handling:
+
+**Testing checkpoint:** Verified all pages loaded correctly, CSS/JS files resolved, images displayed without 403 errors.
+
+## Phase 3: CloudFront Distribution & CDN
+
+**Distribution Creation**
+
+The true strength of the architecture is delivered through CloudFront. I created a distribution that pulls content directly from the S3 website endpoint.
+
+
+| Column One | Column Two | Column Three |
+|-----------|------------|--------------|
+| Row One A | Row One B  | Row One C    |
+| Row Two A | Row Two B  | Row Two C    |
