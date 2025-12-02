@@ -168,10 +168,4 @@ Objectives After completing this lab, you should be able to:
 
 ![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-
-
-=======
-![AWS](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/awsCloud.PNG?raw=true)
->>>>>>> 4dd5934399f152cd42b38b3db45f69292a7f93a0
+![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.
