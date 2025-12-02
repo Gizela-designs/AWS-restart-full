@@ -122,6 +122,7 @@ The true strength of the architecture is delivered through CloudFront. I created
 Here's where architecture gets serious. Instead of leaving S3 public, I amended the bucket policy to only allow access from CloudFront:
 
 **Why This Matters**
+
 This distinction separates a casual hobby setup from a true enterprise-grade architecture. The S3 bucket is now fully secured with no direct public access and all traffic flowing exclusively through CloudFront. This design prevents several critical risks:
 
  - Bypassing the content delivery network, which can lead to unnecessary cost increases
