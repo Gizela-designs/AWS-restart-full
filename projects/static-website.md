@@ -124,10 +124,10 @@ Here's where architecture gets serious. Instead of leaving S3 public, I amended 
 **Why This Matters**
 This distinction separates a casual hobby setup from a true enterprise-grade architecture. The S3 bucket is now fully secured with no direct public access and all traffic flowing exclusively through CloudFront. This design prevents several critical risks:
 
-**• Bypassing the content delivery network, which can lead to unnecessary cost increases**
-**• Distributed denial of service attacks targeting the S3 endpoint directly**
-**• Attempts to access content without proper authorization controls**
-**• Unauthorized consumption of bandwidth and other resources**
+ - Bypassing the content delivery network, which can lead to unnecessary cost increases
+ - Distributed denial of service attacks targeting the S3 endpoint directly
+ - Attempts to access content without proper authorization controls
+ - Unauthorized consumption of bandwidth and other resources
 
 ## Security Benefits:
 
