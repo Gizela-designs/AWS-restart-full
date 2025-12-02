@@ -111,3 +111,27 @@ The true strength of the architecture is delivered through CloudFront. I created
 |-----------|------------|--------------|
 | Origin Domain | ember-co.s3-website-us-east-1.amazonaws.com  | Website endpoint (not bucket endpoint) for proper routing    |
 | Distribution Domain | dbmubhcukpnv9.cloudfront.net  | Auto-generated global CDN endpoint    |
+| Price Class | All Edge Locations | Maximum global reach    |
+| Default Root Object | index.html | Handles root URL requests    |
+| Viewer Protocol | Redirect HTTP to HTTPS | Security best practice    |
+
+## Phase 4: Production Security Hardening
+
+**CloudFront-Only Access Policy**
+
+Here's where architecture gets serious. Instead of leaving S3 public, I amended the bucket policy to only allow access from CloudFront:
+
+**Why This Matters**
+This distinction separates a casual hobby setup from a true enterprise-grade architecture. The S3 bucket is now fully secured with no direct public access and all traffic flowing exclusively through CloudFront. This design prevents several critical risks:
+
+**• Bypassing the content delivery network, which can lead to unnecessary cost increases**
+**• Distributed denial of service attacks targeting the S3 endpoint directly**
+**• Attempts to access content without proper authorization controls**
+**• Unauthorized consumption of bandwidth and other resources**
+
+## Security Benefits:
+
+-  AWS Shield Standard protection automatically enabled
+-  CloudFront access logs for security auditing
+-  Geographic restrictions available if needed
+-  Custom SSL/TLS certificates supported
