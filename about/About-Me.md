@@ -28,7 +28,7 @@ I may be new to the tech industry, but I’m committed, curious, and ready to le
 
 - Email: gizelakekane@gmail.com
 - Phone: +27 84 707 2960
-- GitHub:
-- LinkedIn:
+- GitHub: Gizela-designs
+- LinkedIn: Gizela Kekana
 
 **Stepping into the world of cloud and technology is a leap for me, but it’s one I’m taking confidently. I’m ready to learn, contribute, and bring my full energy to the right team.**

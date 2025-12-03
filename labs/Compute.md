@@ -13,7 +13,7 @@
 
 6. Terminate your EC2 instance
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/images/ec2(1).PNG?raw=true)
 
 
 
@@ -25,22 +25,22 @@ In this task, you will launch an Amazon EC2 instance with termination protection
 ## Choosing an Amazon Machine Image (AMI)
 An AMI provides the information required to launch an instance, which is a virtual server in the cloud. An AMI includes the following: A template for the root volume for the instance (for example, an operating system or an application server with applications) Launch permissions that control which AWS accounts can use the AMI to launch instances A block device mapping that specifies the volumes to attach to the instance when it is launched The Quick Start list contains the most commonly used AMIs. You can also create your own AMI or select an AMI from the AWS Marketplace, an online store where you can sell or buy software that runs on AWS. Locate the Application and OS Images (Amazon Machine Image) pane. Under AMI Machine Image (AMI), notice that the Amazon Linux 2023* image is selected by default. Keep this setting.
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/ChoosinganAMI.PNG?raw=true)
 
 ## Choosing an instance type
 Amazon EC2 provides a wide selection of instance types optimized to fit different use cases. Instance types comprise varying combinations of CPU, memory, storage, and networking capacity and give you the flexibility to choose the appropriate mix of resources for your applications. Each instance type includes one or more instance sizes so that you can scale your resources to the requirements of your target workload.
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/ChoosinganInstancetype.PNG?raw=true)
 
 ## Configuring the network settings
 The VPC indicates which virtual private cloud (VPC) you want to launch the instance into. You can have multiple VPCs, including different ones for development, testing, and production. In the Network settings pane, choose Edit For VPC - required, select Lab VPC. Still in the Network settings pane, configure the Security Group as follows: Security group name - required: Web Server security group Description: Security group for my web server A security group acts as a virtual firewall that controls the traffic for one or more instances. When you launch an instance, you associate one or more security groups with the instance. You add rules to each security group that allow traffic to or from its associated instances. You can modify the rules for a security group at any time; the new rules are automatically applied to all instances that are associated with the security group. Under Inbound security groups rules select the Remove In this lab, you will not log into your instance using SSH. Removing SSH access will improve the security of the instance.
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/NetworkConfiguration.PNG?raw=true)
 
 ## Adding storage
 Amazon EC2 stores data on a network-attached virtual disk called Amazon Elastic Block Store (Amazon EBS). You launch the EC2 instance using a default 8 GiB disk volume. This is your root volume (also known as a boot volume). EC2
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/Configurestorageneeded.PNG?raw=true)
 
 ## Configuring advanced details
 Expand the Advanced details pane. Select the dropdown for Termination protection, then choose Enable. When you launch an instance in Amazon EC2, you have the option of passing user data to the instance. These commands can be used to perform common automated configuration tasks and even run scripts after the instance starts. Copy the following commands, and paste them into the User data text box.

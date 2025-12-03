@@ -10,7 +10,7 @@ In this lab, you will:
 - Analyze the difference between a private and public IP address
 - Develop a solution to the customer's issue in this lab
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/customerDiagram.PNG?raw=true)
 
 
 ## Task 1: Investigate the customer's needs
@@ -35,19 +35,19 @@ In this lab, you will:
 - Create VPC.
 
 
-![vpc](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![vpc](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/dashboard.PNG?raw=true)
 
-![2](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![2](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/createVPC.PNG?raw=true)
 
-![3](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![3](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/vpc3.PNG?raw=true)
 
-![4](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![4](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/vpc4.PNG?raw=true)
 
-![5](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![5](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/vpc5.PNG?raw=true)
 
-![6](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![6](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/vpc6.PNG?raw=true)
 
-
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/WORKFLOW.PNG?raw=true)
 
 
 ## **Task 2: Response to the Customer – Student-Friendly Version**
@@ -168,10 +168,4 @@ Objectives After completing this lab, you should be able to:
 
 ![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-
-
-=======
-![AWS](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/awsCloud.PNG?raw=true)
->>>>>>> 4dd5934399f152cd42b38b3db45f69292a7f93a0
+![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.
