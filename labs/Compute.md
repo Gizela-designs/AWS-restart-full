@@ -28,15 +28,24 @@
 - Configure advanced network settings
 - Then finally launch the instance
 
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/instance.PNG?raw=true)
+
+## TASK 2 :
+## MONITOR THE INSTANCE
+
+- Monitor and troubleshoot to get the this outcome THIS IS THE OUTCOME
+
 ![logo]()
 
-## Choosing an Amazon Machine Image (AMI)
-An AMI provides the information required to launch an instance, which is a virtual server in the cloud. An AMI includes the following: A template for the root volume for the instance (for example, an operating system or an application server with applications) Launch permissions that control which AWS accounts can use the AMI to launch instances A block device mapping that specifies the volumes to attach to the instance when it is launched The Quick Start list contains the most commonly used AMIs. You can also create your own AMI or select an AMI from the AWS Marketplace, an online store where you can sell or buy software that runs on AWS. Locate the Application and OS Images (Amazon Machine Image) pane. Under AMI Machine Image (AMI), notice that the Amazon Linux 2023* image is selected by default. Keep this setting.
+## TASK 3 :
+## UPDATE SECURITY RULES AND ACCESS THE WEB SERVER
 
-![logo]()
+- Go to network & security
+- The select security groups
+- select inbound rules
+- Edit the rules with the following : - Type: HTTP Source: Anywhere-IPv4
+- Save the rules and reload web server to see the desired outcome. THIS IS THE OUTCOME
 
-## Choosing an instance type
-Amazon EC2 provides a wide selection of instance types optimized to fit different use cases. Instance types comprise varying combinations of CPU, memory, storage, and networking capacity and give you the flexibility to choose the appropriate mix of resources for your applications. Each instance type includes one or more instance sizes so that you can scale your resources to the requirements of your target workload.
 
 ![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/ChoosinganInstancetype.PNG?raw=true)
 
