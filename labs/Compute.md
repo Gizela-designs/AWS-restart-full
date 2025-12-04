@@ -58,7 +58,7 @@
 - Change the instance to t3.small under Actions tab
 - Resize volume under actions to 10 The desired outcome must display the new changes
   
-![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/NetworkConfiguration.PNG?raw=true)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/ec2(1).PNG?raw=true)
 
 ## TASK 5:
 ## TEST TERMINATION PROCESS
@@ -71,7 +71,8 @@
 
 - Go to actions again instance state > terminate instance
   
-![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/Configurestorageneeded.PNG?raw=true)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/ec2(2).PNG?raw=true)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/ec2(3).PNG?raw=true)
 
 Here’s a fuller rewrite of your reflection:
 
