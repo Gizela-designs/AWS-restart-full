@@ -35,7 +35,7 @@
 
 - Monitor and troubleshoot to get the this outcome THIS IS THE OUTCOME
 
-![logo]()
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/monitorInstance.PNG?raw=true)
 
 ## TASK 3 :
 ## UPDATE SECURITY RULES AND ACCESS THE WEB SERVER
