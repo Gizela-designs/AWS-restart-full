@@ -16,16 +16,24 @@
 ![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/images/ec2(1).PNG?raw=true)
 
 
+## TASK 1 :
+## LAUNCH EC2 INSTANCE
 
-## Launch a web server with termination protection enabled
-In this task, you will launch an Amazon EC2 instance with termination protection. Termination protection prevents you from accidentally terminating an EC2 instance. You will deploy your instance with a User Data script that will allow you to deploy a simple web server. In the AWS Management Console on the Services menu, choose EC2. In the left navigation pane, choose EC2 Dashboard to ensure that you are on the dashboard page. Choose Launch instance, and then select Launch instance.
+- Name the instance
+- Choose an Amazon machine image
+- Choose an instance type
+- Configure a key pair
+- Configure the network settings
+- Add storage
+- Configure advanced network settings
+- Then finally launch the instance
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo]()
 
 ## Choosing an Amazon Machine Image (AMI)
 An AMI provides the information required to launch an instance, which is a virtual server in the cloud. An AMI includes the following: A template for the root volume for the instance (for example, an operating system or an application server with applications) Launch permissions that control which AWS accounts can use the AMI to launch instances A block device mapping that specifies the volumes to attach to the instance when it is launched The Quick Start list contains the most commonly used AMIs. You can also create your own AMI or select an AMI from the AWS Marketplace, an online store where you can sell or buy software that runs on AWS. Locate the Application and OS Images (Amazon Machine Image) pane. Under AMI Machine Image (AMI), notice that the Amazon Linux 2023* image is selected by default. Keep this setting.
 
-![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/ChoosinganAMI.PNG?raw=true)
+![logo]()
 
 ## Choosing an instance type
 Amazon EC2 provides a wide selection of instance types optimized to fit different use cases. Instance types comprise varying combinations of CPU, memory, storage, and networking capacity and give you the flexibility to choose the appropriate mix of resources for your applications. Each instance type includes one or more instance sizes so that you can scale your resources to the requirements of your target workload.
