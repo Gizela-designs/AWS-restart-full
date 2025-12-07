@@ -86,79 +86,24 @@ Objectives After completing this lab, you should be able to:
 ## Task 1: Create your VPC
 I searched for "VPC" in the AWS Management Console and clicked "Create VPC." I configured the VPC settings and created it, then viewed the VPC details to confirm it was successfully created.
 
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
 
 ## Task 2: Create additional subnets
 I navigated to the Subnets section and clicked "Create subnet." I created multiple subnets within my VPC to organize my network resources, repeating the process as needed.
 
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
 ## Task 3: Associate the subnets and add routes
 I went to Route Tables and configured both public and private route tables. I associated the appropriate subnets with each route table and saved the associations to establish proper network routing.
 
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
 ## Task 4: Create a VPC security group
 I selected Security Groups and created a new security group. I added inbound and outbound rules to control traffic, then saved the security group configuration.
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
 
 ## Task 5: Launch a web server instance
 I navigated to EC2, selected Instances, and clicked "Launch instances." I configured the instance to run within my VPC, selected the appropriate subnet and security group, and launched the web server instance.
 
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.
 
 # WHAT I LEARNED
 I learned how to build a complete cloud network environment by creating a VPC, structuring it with subnets, securing it with a security group, and launching an EC2 instance within it — essential steps for designing and deploying applications in AWS.
