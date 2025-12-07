@@ -10,6 +10,13 @@ I worked through an introductory lab with Python programming using AWS Cloud9, l
 - Accessing the Terminal Session I opened a terminal by clicking the + icon and selecting "New Terminal." I used the pwd command to check my present working directory, which showed /home/ec2-user/environment. Then I checked the default Python version and explored other available Python versions installed in the environment.
 - Exercise 2: Writing My First Python Program I entered Python code into my file and ran it to see the results, successfully executing my first Python program in the Cloud9 environment.
 
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/pyEnvironment.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/pyTerminal.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/createFile.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/fileCreated.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/pyVersion.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/HelloWorld.PNG?raw=true)
+
 # Challenges
 
 At first, I wasn’t entirely sure how to run my Python file from the terminal. I had to experiment a bit to figure out the right command, and at one point I forgot to save the file before executing it. That small mistake had me wondering why none of my changes were showing up in the output, which added a bit of confusion until I realized what happened.
@@ -50,3 +57,4 @@ Here's what I learned from this challenge:
 I learned how to write and execute Python scripts on Linux, process numerical data, and save output to external files using the command line
 
 # Lab Complete 🎓
+
