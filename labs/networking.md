@@ -84,9 +84,7 @@ Objectives After completing this lab, you should be able to:
 ![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
 ## Task 1: Create your VPC
-- search for VPC
-- Create VPC
-- View VPC
+I searched for "VPC" in the AWS Management Console and clicked "Create VPC." I configured the VPC settings and created it, then viewed the VPC details to confirm it was successfully created.
 
 ![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
@@ -98,9 +96,7 @@ Objectives After completing this lab, you should be able to:
 
 
 ## Task 2: Create additional subnets
-- choose Subnets
-- choose Create subnet
-- choose Create subnet
+I navigated to the Subnets section and clicked "Create subnet." I created multiple subnets within my VPC to organize my network resources, repeating the process as needed.
 
 ![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
@@ -119,10 +115,7 @@ Objectives After completing this lab, you should be able to:
 ![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
 ## Task 3: Associate the subnets and add routes
-- choose Route Tables
-- Choose Public Route Table
-- Private Route Table
-- Save associations
+I went to Route Tables and configured both public and private route tables. I associated the appropriate subnets with each route table and saved the associations to establish proper network routing.
 
 ![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
@@ -135,9 +128,7 @@ Objectives After completing this lab, you should be able to:
 ![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
 ## Task 4: Create a VPC security group
-- choose Security Groups
-- Add rule
-- Create security group.
+I selected Security Groups and created a new security group. I added inbound and outbound rules to control traffic, then saved the security group configuration.
 
 ![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
@@ -147,10 +138,7 @@ Objectives After completing this lab, you should be able to:
 
 
 ## Task 5: Launch a web server instance
-- choose EC2
-- choose Instances
-- Launch instances
-- Choose Launch instance.
+I navigated to EC2, selected Instances, and clicked "Launch instances." I configured the instance to run within my VPC, selected the appropriate subnet and security group, and launched the web server instance.
 
 ![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
@@ -173,13 +161,6 @@ Objectives After completing this lab, you should be able to:
 ![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.
 
 # WHAT I LEARNED
-
-- I set up a VPC, which acts like a private network in the cloud where I can place and control my resources.
-
-- I created subnets to organize the network, allowing me to separate resources into different sections for better management and security.
-
-- I set up a security group to control which types of traffic are allowed in and out of my instance, similar to creating a firewall for my cloud resources
-
-- I deployed an EC2 virtual server inside the VPC, connecting it to the subnets and securing it with the configured security group
+I learned how to build a complete cloud network environment by creating a VPC, structuring it with subnets, securing it with a security group, and launching an EC2 instance within it — essential steps for designing and deploying applications in AWS.
 
 # Lab complete 🎓
