@@ -43,7 +43,17 @@ Save the script and make a note of its location (absolute path) for future refer
 
 Note: Both Python 2 and Python 3 are installed on the Linux Host. It is recommended to use Python 3. To run a Python script using version 3, run the following command by replacing file.py with your f0ile name.
 
-CHALLENGES
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/startLab.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/ec2Terminal.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/ec2Terminal2.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/python.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/primeNum.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/printPrimeNum.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/printPrimeNum2.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/printPrimeNum3.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/printPrimeNum4.PNG?raw=true)
+
+# CHALLENGES
 File Handling Syntax: I struggled with properly closing the file after writing to it. I forgot to include the close() method initially, which could have caused issues with data not being saved properly to results.txt.
 
 # WHAT I LEARNED
@@ -57,4 +67,5 @@ Here's what I learned from this challenge:
 I learned how to write and execute Python scripts on Linux, process numerical data, and save output to external files using the command line
 
 # Lab Complete 🎓
+
 
