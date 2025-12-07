@@ -73,7 +73,8 @@ verify that the archive is created in the backups folder
 
 - I wrote a bash script that automatically backs up a folder, so I don't have to manually copy files every time
 
-#Lab Complete 🎓
+# Lab Complete 🎓
 
-## BASH SHELL SCRIPTING EXERCISE
+
+
 
