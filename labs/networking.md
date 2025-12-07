@@ -1,39 +1,41 @@
 # NETWORKING
 Under networking we had a few labs, i will show 2 labs i found challenging
 
-# Internet Protocols - Public and Private IP addresses
- 
-## Objectives
-In this lab, you will:
+# FIRST LAB: Create Subnets and Allocate IP addresses in an Amazon Virtual Private Cloud (Amazon VPC)
+- Summarize the customer scenario
 
-- Summarize and investigate the customer scenario
-- Analyze the difference between a private and public IP address
+- Create a Amazon Virtual Private Cloud (Amazon VPC) and understand how to create subnets and allocate IP addresses
+
+- Familiarize yourself with the Amazon Web Services (AWS) Management Console
+
 - Develop a solution to the customer's issue in this lab
+
+- Summarize and describe your findings (group activity)
+
 
 ![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/customerDiagram.PNG?raw=true)
 
 
-## Task 1: Investigate the customer's needs
-- Type and search for VPC
+## TTask 1: Investigate the customer's needs
+Type and search for VPC
 
-- Launch VPC Wizard
+Launch VPC Wizard
 
-- Configure the following options:
+Configure the following options:
 
-- For IPv6 CIDR block, leave No IPv6 CIDR Block selected. You will not be using IPv6 in this lab.
+For IPv6 CIDR block, leave No IPv6 CIDR Block selected. You will not be using IPv6 in this lab.
 
-- For the VPC name, enter First VPC
+For the VPC name, enter First VPC
 
-- For Public subnet's IPv4 CIDR, this option prefills. Input the correct VPC CIDR that you are using; however, keep in mind that the public subnet's CIDR must be smaller then - the VPC CIDR block, and it must be able to include at least 50 IP addresses.
+For Public subnet's IPv4 CIDR, this option prefills. Input the correct VPC CIDR that you are using; however, keep in mind that the public subnet's CIDR must be smaller then - the VPC CIDR block, and it must be able to include at least 50 IP addresses.
 
-- For Availability Zone, choose No Preference.
+For Availability Zone, choose No Preference.
 
-- For Subnet name, leave this option set to Public subnet.
+For Subnet name, leave this option set to Public subnet.
 
-- Leave the remaining options set to their default settings.
+Leave the remaining options set to their default settings.
 
-- Create VPC.
-
+Create VPC.
 
 ![vpc](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/dashboard.PNG?raw=true)
 
@@ -50,25 +52,25 @@ In this lab, you will:
 ![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/WORKFLOW.PNG?raw=true)
 
 
-## **Task 2: Response to the Customer – Student-Friendly Version**
+## Task 2: Send the response to the customer
 
-For this task, I acted as both the customer and the cloud technician. I started by planning what the VPC should look like and chose a CIDR block that would give enough IP addresses for all the subnets. After that, I created a public subnet and a private subnet so that different resources could be placed where they fit best. Public subnets are for resources that need internet access, and private subnets are for the ones that should stay inside the network.
+- Designed VPC layout and sized the CIDR block for all required IPs  
+- Created separate public and private subnets to isolate resources by access level  
+- Attached an Internet Gateway and updated route tables so only public subnets reach the internet  
+- Left private subnets with local-only routes to keep them secure  
+- Configured security groups and network ACLs to control inbound/outbound traffic  
+- Tested subnet-to-subnet connectivity and verified expected reachability  
+- Acted as both “customer” and “engineer” to see requirements from both sides  
+- Gained end-to-end understanding of how subnets, routes, gateways, and security rules combine into a functional, secure cloud network
 
-Once the subnets were created, I set up the routing. The public subnet was connected to an internet gateway so it could reach the internet, while the private subnet stayed isolated for security. I configured security groups and network ACLs to control what kind of traffic is allowed to move in and out of the VPC.
 
-During the process, I tested communication between the subnets to make sure everything could connect the way it should. Completing all of this by myself helped me fully understand how subnets, route tables, gateways, and security settings all work together in a VPC. It also taught me how to think from both a customer’s perspective and an engineer’s perspective, which is important when designing cloud solutions.
+## WHAT I LEARNED
 
----
+- I reviewed the customer’s problem to understand their networking needs and what kind of cloud environment they required
+- I built an Amazon VPC and learned how to set up subnets and assign IP addresses, which is like designing separate network sections for different resources.
+- I became familiar with navigating the AWS Console to manage networking, resources, and configurations more efficiently
+- Using what I learned, I created a practical solution that addressed the customer’s requirements within the VPC
 
-## **What I Learned**
-
-While working through this lab, I learned how to read and understand a customer’s problem so that I could decide what kind of cloud environment they needed. I learned how to build a VPC, create subnets, and assign IP addresses. This felt similar to designing different rooms inside a building so everything has its proper place. I also became more comfortable navigating the AWS Console and changing settings for networking and resources. Using everything I learned, I was able to build a working VPC solution that met the customer’s needs.
-
----
-
-## **Overall**
-
-This lab taught me how to look at a customer scenario, plan the right VPC design, and configure all the network parts that make it work. It also helped me practice explaining my work clearly, which is an important skill for cloud architecture, troubleshooting, and working with clients in AWS environments.
 
 # Lab complete 🎓
 ## SECOND LAB: Build Your VPC and Launch a Web Server
@@ -79,93 +81,31 @@ Objectives After completing this lab, you should be able to:
 - Configure a security group
 - Launch an Amazon Elastic Compute Cloud (Amazon EC2) instance into a VPC
 
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![diagram](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/customerDiagram.PNG?raw=true)
 
 ## Task 1: Create your VPC
-- search for VPC
-- Create VPC
-- View VPC
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+I searched for "VPC" in the AWS Management Console and clicked "Create VPC." I configured the VPC settings and created it, then viewed the VPC details to confirm it was successfully created.
 
 
 ## Task 2: Create additional subnets
-- choose Subnets
-- choose Create subnet
-- choose Create subnet
+I navigated to the Subnets section and clicked "Create subnet." I created multiple subnets within my VPC to organize my network resources, repeating the process as needed.
 
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
 ## Task 3: Associate the subnets and add routes
-- choose Route Tables
-- Choose Public Route Table
-- Private Route Table
-- Save associations
+I went to Route Tables and configured both public and private route tables. I associated the appropriate subnets with each route table and saved the associations to establish proper network routing.
 
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
 ## Task 4: Create a VPC security group
-- choose Security Groups
-- Add rule
-- Create security group.
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+I selected Security Groups and created a new security group. I added inbound and outbound rules to control traffic, then saved the security group configuration.
 
 
 ## Task 5: Launch a web server instance
-- choose EC2
-- choose Instances
-- Launch instances
-- Choose Launch instance.
+I navigated to EC2, selected Instances, and clicked "Launch instances." I configured the instance to run within my VPC, selected the appropriate subnet and security group, and launched the web server instance.
 
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
 
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+# WHAT I LEARNED
+I learned how to build a complete cloud network environment by creating a VPC, structuring it with subnets, securing it with a security group, and launching an EC2 instance within it — essential steps for designing and deploying applications in AWS.
 
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
-
-![diagram](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.
+# Lab complete 🎓
