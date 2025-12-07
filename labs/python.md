@@ -35,3 +35,18 @@ Write a Python script to:
 Save the script and make a note of its location (absolute path) for future reference.
 
 Note: Both Python 2 and Python 3 are installed on the Linux Host. It is recommended to use Python 3. To run a Python script using version 3, run the following command by replacing file.py with your f0ile name.
+
+CHALLENGES
+File Handling Syntax: I struggled with properly closing the file after writing to it. I forgot to include the close() method initially, which could have caused issues with data not being saved properly to results.txt.
+
+# WHAT I LEARNED
+Here's what I learned from this challenge:
+
+- I created a Python script using the nano text editor and learned the importance of proper indentation and syntax in Python.
+- I implemented a prime number algorithm that identifies all prime numbers between 1 and 250 by checking for divisibility.
+- I used Python's file handling methods to write results to a text file for permanent storage.
+
+# OVERALL
+I learned how to write and execute Python scripts on Linux, process numerical data, and save output to external files using the command line
+
+# Lab Complete 🎓
