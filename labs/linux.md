@@ -62,7 +62,12 @@ run backup.sh
 
 verify that the archive is created in the backups folder
 
-
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/linuxImages/logInUser.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/linuxImages/backUp.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/linuxImages/binBash.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/linuxImages/endBackup.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/linuxImages/ec2User.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/linuxImages/ec2User2.PNG?raw=true)
 
 # WHAT I LEARNED
 
@@ -71,3 +76,4 @@ verify that the archive is created in the backups folder
 #Lab Complete 🎓
 
 ## BASH SHELL SCRIPTING EXERCISE
+
