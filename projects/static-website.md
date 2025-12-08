@@ -98,6 +98,23 @@ Files are organized into clear and functional folders such as Images CSS and JS 
 **Initial Public Access Policy**
 For accelerated development, a temporary bucket policy was configured to allow public read access. This approach enabled quick validation of assets and streamlined early testing.
 
+
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "PublicReadGetObject",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::ember-co/*"
+    }
+  ]
+}
+
+
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/staticWebImg/S3Code.PNG?raw=true)
+
 **This was temporary**. Production required a more secure approach.
 
 ## Static Website Hosting Configuration
