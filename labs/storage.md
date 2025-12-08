@@ -42,6 +42,18 @@ I went back to the Volumes section and selected "My Volume." Then I deleted the 
 - Task 6.2: Attaching the Restored Volume to My EC2 Instance I selected "Restored Volume," clicked "Attach volume," chose my Lab instance, and attached it.
 - Task 6.3: Mounting the Restored Volume Finally, I created a new directory for mounting the restored volume, mounted it, and verified that everything was working correctly.
 
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/storageImages/amazonEBS.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/storageImages/createVolume.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/storageImages/createdVolume.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/storageImages/ec2Terminal1.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/storageImages/ec2Terminal2.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/storageImages/ec2Terminal3.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/storageImages/mySnapshot.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/storageImages/snapshotCreated.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/storageImages/attachVolume.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/storageImages/volumes2.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/storageImages/ec2Terminal4.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/storageImages/ec2Terminal5.PNG?raw=true)
 
 
 # WHAT I LEARNED
@@ -64,7 +76,8 @@ I completed a hands-on challenge working with the AWS Command Line Interface (CL
 - Listing the Bucket Contents I ran a command to list all the contents of my S3 bucket, verifying that my uploaded file was actually there. Seeing the output in the terminal confirmed everything worked correctly.
 - Accessing the Object via Web Browser Finally, I accessed my uploaded object using a web browser to prove that it was publicly accessible and properly stored in S3.
 
-
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/storageImages/ec2Challenge.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/storageImages/AmazonS3.PNG?raw=true)
 
 # WHAT I LEARNED
 
@@ -74,3 +87,4 @@ I completed a hands-on challenge working with the AWS Command Line Interface (CL
 - I used the AWS CLI to list everything inside the S3 bucket, which is helpful for managing and checking files through the command line
 
 # Lab complete 🎓
+
