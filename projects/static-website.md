@@ -1,6 +1,8 @@
 # 🍽️ Ember & Co: A Digital Upgrade Powered by AWS
 Turning operational chaos into cloud-level clarity with smart, scalable AWS architecture.
 
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/staticWebImg/emberAndCo.PNG?raw=true)
+
 # 📋 What's Inside
 - What I Built Here
 - Architecture Overview
@@ -31,6 +33,8 @@ Tech Stack: Amazon S3, CloudFront, Route 53, IAM, Business Strategy & Consulting
 ## How It’s Built
 
 The goal wasn’t to “just upload files to the cloud.” I built a serverless architecture that can grow as the business grows. What looks simple on the front end is supported by a reliable, scalable, enterprise-ready AWS infrastructure underneath.
+
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/staticWebImg/S3.PNG?raw=true)
 
 # Key Pieces of the Architecture
 
@@ -78,6 +82,7 @@ Files are organized into clear and functional folders such as Images CSS and JS 
 
 # Asset Upload Strategy
 
+!![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/staticWebImg/assetUpload.PNG?raw=true)
 
 ## Successfully uploaded 71 assets totaling 34MB:
 
@@ -86,6 +91,7 @@ Files are organized into clear and functional folders such as Images CSS and JS 
 - 8 JavaScript files (booking logic, animations)
 - 6 HTML pages (homepage, menu, booking, about, contact, confirmation)
 **Upload approach:** Used AWS CLI for batch operations rather than console clicking—faster, repeatable, scriptable.
+
 
 ## **Phase Two: Development Environment Setup**
 
