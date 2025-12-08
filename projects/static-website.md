@@ -150,3 +150,139 @@ The homepage delivers immediate impact with clear call-to-action:
 - Responsive typography scaling from mobile to desktop
 - Smooth scroll-to-section navigation
 
+## Interactive Menu System
+The requirements demanded "images, videos, or animations to enhance design." Delivered with a tabbed menu system featuring:
+
+## Menu Categories:
+
+Mains - Signature dishes with portion size indicators
+Starters - Appetizers with dietary icons (vegetarian, gluten-free)
+Desserts - Sweet offerings with calorie information
+Drinks - Full beverage menu with pairing suggestions
+
+## Technical Implementation:
+
+- CSS Grid for responsive card layouts
+- JavaScript tab switching with smooth transitions
+- High-quality WebP images with JPEG fallbacks
+- Lazy loading for performance optimization
+- Design choice: High-contrast text on food imagery while maintaining readability—exactly as the project required.
+
+## Booking Form Architecture
+The core problem was "order mix-ups and double-bookings." The solution starts with a clean, validated form:
+
+## Form Fields:
+
+- Full Name (required, regex validation)
+- Email (required, RFC 5322 compliant)
+- Phone Number (required, international format support)
+- Party Size (1-20 guests, dropdown)
+- Date & Time (required, prevents past dates)
+- Special Requests (optional textarea)
+
+## Client-Side Validation:
+
+- Real-time field validation with error messages
+- Date picker restricted to business hours (5 PM - 11 PM)
+- Prevents submission of incomplete forms
+- Accessibility-compliant (WCAG 2.1 AA)
+
+## Confirmation Flow:
+
+- Immediate on-screen confirmation
+- Summary of booking details
+- "Add to Calendar" button (generates .ics file)
+- Clear next steps and contact information
+
+## Mobile-First Responsiveness
+With 60%+ of restaurant bookings coming from mobile, responsiveness wasn't optional:
+
+## Breakpoints:
+
+- Mobile: 320px - 767px
+- Tablet: 768px - 1023px
+- Desktop: 1024px+
+
+## Mobile Optimizations:
+
+- Hamburger menu collapses navigation cleanly
+-- Touch-friendly button sizing (minimum 44px tap targets)
+- Simplified forms with mobile-optimized input types
+- Reduced image sizes for faster load times
+Pro tip: Tested on actual devices (iPhone 12, Samsung Galaxy S21, iPad), not just browser dev tools. The difference is night and day.
+
+# Security & Verification
+## Security Architecture
+## Defense-in-Depth Strategy:
+
+- CloudFront Layer - DDoS protection via AWS Shield, WAF integration ready
+- IAM Policies - Least-privilege access for deployment users
+- S3 Bucket Policies - Service Principal with SourceArn condition
+- HTTPS Enforcement - TLS 1.2+ mandatory, HTTP redirects
+- Access Logging - CloudFront and S3 logs retained for 90 days
+
+## Testing the Deployment
+
+
+
+## Performance Metrics
+## Lighthouse Scores (Mobile):
+
+- Performance: 94/100
+- Accessibility: 98/100
+- Best Practices: 100/100
+- SEO: 100/100
+
+## Load Times:
+
+- First Contentful Paint: 1.2s
+- Time to Interactive: 2.8s
+- Largest Contentful Paint: 2.1s
+
+If you see these metrics, you're delivering production-grade performance.
+
+# What I Learned
+## Technical Skills I Practiced
+
+## AWS Resource Management
+
+- Creating and configuring S3 buckets with static website hosting
+- Understanding the difference between S3 website endpoints vs. bucket endpoints
+- Setting up CloudFront distributions with custom origins
+- Implementing cache invalidation strategies
+
+# Security by Design
+
+- Implementing least-privilege access through IAM and bucket policies
+- Using CloudFront Service Principal with SourceArn conditions (production-grade)
+- Balancing security (locked-down S3) with functionality (public website via CDN)
+- Applying HTTPS enforcement and TLS best practices
+
+# Real-World Architecture
+
+- Designing a solution that starts simple (static site) but scales infinitely
+- Mapping business problems (double-bookings) to technical solutions
+- Creating presentations that speak stakeholder language (ROI, not just tech specs)
+- Planning phased migrations with minimal downtime
+
+# Business Communication
+
+- Translating technical architecture into revenue recovery
+- Presenting a 7-week migration roadmap costing less than two meals
+- Demonstrating enterprise-grade infrastructure at local business pricing
+- Building stakeholder confidence through clear documentation
+
+# The Real Takeaway
+Honestly, the biggest challenge wasn't technical—it was thinking like a consultant. The AWS Cloud Practitioner exam teaches services, but this project taught me to connect those services to revenue recovery, staff efficiency, and customer satisfaction.
+
+When the restaurant owner sees "Lambda runs only when a customer clicks Reserve," they don't care about serverless architecture—they care about not paying for idle infrastructure. That's the mindset shift this project demanded.
+
+## Key insights:
+
+ Security is non-negotiable — Even for a restaurant website, CloudFront + locked S3 is the right way
+Architecture decisions have business impact — $14/month vs. thousands in lost revenue from double-bookings
+ Presentations matter as much as code — The PowerPoint deck closed the deal, not the S3 bucket
+ Mobile-first isn't optional — Most bookings come from phones, not desktops
+ Documentation is a deliverable — Clear READMEs demonstrate professionalism
+This project proved I can build AWS infrastructure and explain why it matters to people who've never heard of IAM policies.
+
