@@ -13,7 +13,7 @@ Under networking we had a few labs, i will show 2 labs i found challenging
 - Summarize and describe your findings (group activity)
 
 
-![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/customerDiagram.PNG?raw=true)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/networkingImages/customerDiagram.PNG?raw=true)
 
 
 ## TTask 1: Investigate the customer's needs
@@ -37,19 +37,19 @@ Leave the remaining options set to their default settings.
 
 Create VPC.
 
-![vpc](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/dashboard.PNG?raw=true)
+![vpc](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/networkingImages/dashboard.PNG?raw=true)
 
-![2](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/createVPC.PNG?raw=true)
+![2](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/networkingImages/createVPC.PNG?raw=true)
 
-![3](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/vpc3.PNG?raw=true)
+![3](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/networkingImages/vpc3.PNG?raw=true)
 
-![4](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/vpc4.PNG?raw=true)
+![4](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/networkingImages/vpc4.PNG?raw=true)
 
-![5](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/vpc5.PNG?raw=true)
+![5](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/networkingImages/vpc5.PNG?raw=true)
 
-![6](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/vpc6.PNG?raw=true)
+![6](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/networkingImages/vpc6.PNG?raw=true)
 
-![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/WORKFLOW.PNG?raw=true)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/networkingImages/WORKFLOW.PNG?raw=true)
 
 
 ## Task 2: Send the response to the customer
