@@ -10,12 +10,12 @@ I worked through an introductory lab with Python programming using AWS Cloud9, l
 - Accessing the Terminal Session I opened a terminal by clicking the + icon and selecting "New Terminal." I used the pwd command to check my present working directory, which showed /home/ec2-user/environment. Then I checked the default Python version and explored other available Python versions installed in the environment.
 - Exercise 2: Writing My First Python Program I entered Python code into my file and ran it to see the results, successfully executing my first Python program in the Cloud9 environment.
 
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/pyEnvironment.PNG?raw=true)
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/pyTerminal.PNG?raw=true)
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/createFile.PNG?raw=true)
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/fileCreated.PNG?raw=true)
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/pyVersion.PNG?raw=true)
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/HelloWorld.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/pyEnvironment.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/pyTerminal.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/createFile.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/fileCreated.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/pyVersion.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/HelloWorld.PNG?raw=truee)
 
 # Challenges
 
@@ -67,5 +67,6 @@ Here's what I learned from this challenge:
 I learned how to write and execute Python scripts on Linux, process numerical data, and save output to external files using the command line
 
 # Lab Complete 🎓
+
 
 
