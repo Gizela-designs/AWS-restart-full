@@ -81,7 +81,7 @@ Objectives After completing this lab, you should be able to:
 - Configure a security group
 - Launch an Amazon Elastic Compute Cloud (Amazon EC2) instance into a VPC
 
-![diagram](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/networkingImages/customerDiagram.PNG?raw=true)
+![diagram](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/networkingImages/customerDiagram.PNG?raw=true)
 
 ## Task 1: Create your VPC
 I searched for "VPC" in the AWS Management Console and clicked "Create VPC." I configured the VPC settings and created it, then viewed the VPC details to confirm it was successfully created.
