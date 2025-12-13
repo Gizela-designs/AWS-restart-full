@@ -76,8 +76,8 @@ I completed a hands-on challenge working with the AWS Command Line Interface (CL
 - Listing the Bucket Contents I ran a command to list all the contents of my S3 bucket, verifying that my uploaded file was actually there. Seeing the output in the terminal confirmed everything worked correctly.
 - Accessing the Object via Web Browser Finally, I accessed my uploaded object using a web browser to prove that it was publicly accessible and properly stored in S3.
 
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/storageImages/ec2Challenge.PNG?raw=true)
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/storageImages/AmazonS3.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/storageImages/AmazonS3.PNG?raw=true)
+![]()
 
 # WHAT I LEARNED
 
@@ -87,5 +87,6 @@ I completed a hands-on challenge working with the AWS Command Line Interface (CL
 - I used the AWS CLI to list everything inside the S3 bucket, which is helpful for managing and checking files through the command line
 
 # Lab complete 🎓
+
 
 
