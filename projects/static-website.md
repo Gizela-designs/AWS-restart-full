@@ -108,6 +108,8 @@ For accelerated development, a temporary bucket policy was configured to allow p
 
 ## Static Website Hosting Configuration
 
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/staticWebImg/S3Webs2.PNG?raw=true)
+
 Activated static website hosting with proper error handling:
 
 **Testing checkpoint:** Verified all pages loaded correctly, CSS/JS files resolved, images displayed without 403 errors.
@@ -118,6 +120,8 @@ Activated static website hosting with proper error handling:
 
 The true strength of the architecture is delivered through CloudFront. I created a distribution that pulls content directly from the S3 website endpoint.
 
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/staticWebImg/cloudFront.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/staticWebImg/cloudFront2.PNG?raw=true)
 
 | Setting | Configuration | Impact |
 |-----------|------------|--------------|
@@ -132,6 +136,8 @@ The true strength of the architecture is delivered through CloudFront. I created
 **CloudFront-Only Access Policy**
 
 Here's where architecture gets serious. Instead of leaving S3 public, I amended the bucket policy to only allow access from CloudFront:
+
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/staticWebImg/Phase$Bucket.PNG?raw=true)
 
 **Why This Matters**
 
@@ -155,6 +161,8 @@ This distinction separates a casual hobby setup from a true enterprise-grade arc
 
 The homepage delivers immediate impact with clear call-to-action:
 
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/staticWebImg/HomePage.PNG?raw=true)
+
 ## Design Elements:
 
 - Full-width hero image with overlay gradient for text readability
@@ -164,6 +172,11 @@ The homepage delivers immediate impact with clear call-to-action:
 
 ## Interactive Menu System
 The requirements demanded "images, videos, or animations to enhance design." Delivered with a tabbed menu system featuring:
+
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/staticWebImg/menu1.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/staticWebImg/menu2.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/staticWebImg/menu3.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/staticWebImg/menu4.PNG?raw=true)
 
 ## Menu Categories:
 
@@ -183,6 +196,8 @@ Drinks - Full beverage menu with pairing suggestions
 ## Booking Form Architecture
 The core problem was "order mix-ups and double-bookings." The solution starts with a clean, validated form:
 
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/staticWebImg/bookTable.PNG?raw=true)
+
 ## Form Fields:
 
 - Full Name (required, regex validation)
@@ -198,6 +213,8 @@ The core problem was "order mix-ups and double-bookings." The solution starts wi
 - Date picker restricted to business hours (5 PM - 11 PM)
 - Prevents submission of incomplete forms
 - Accessibility-compliant (WCAG 2.1 AA)
+
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/staticWebImg/BookingConfirmed.PNG?raw=true)
 
 ## Confirmation Flow:
 
