@@ -28,14 +28,14 @@
 - Configure advanced network settings
 - Then finally launch the instance
 
-![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/instance.PNG?raw=true)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/computeImages/instance.PNG?raw=true)
 
 ## TASK 2 :
 ## MONITOR THE INSTANCE
 
 - Monitor and troubleshoot to get the this outcome THIS IS THE OUTCOME
 
-![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/monitorInstance.PNG?raw=true)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/computeImages/monitorInstance.PNG?raw=true)
 
 ## TASK 3 :
 ## UPDATE SECURITY RULES AND ACCESS THE WEB SERVER
@@ -46,8 +46,8 @@
 - Edit the rules with the following : - Type: HTTP Source: Anywhere-IPv4
 - Save the rules and reload web server to see the desired outcome. THIS IS THE OUTCOME
 
-![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/siteNotReached.PNG?raw=true)
-![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/HelloServer.PNG?raw=true)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/computeImages/siteNotReached.PNG?raw=true)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/computeImages/HelloServer.PNG?raw=true)
 
 ## TASK 4 :
 ## RESIZE YOUR INSTANCE
@@ -58,7 +58,7 @@
 - Change the instance to t3.small under Actions tab
 - Resize volume under actions to 10 The desired outcome must display the new changes
   
-![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/ec2(1).PNG?raw=true)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/computeImages/ec2(1).PNG?raw=true)
 
 ## TASK 5:
 ## TEST TERMINATION PROCESS
@@ -71,8 +71,8 @@
 
 - Go to actions again instance state > terminate instance
   
-![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/ec2(2).PNG?raw=true)
-![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/computeImages/ec2(3).PNG?raw=true)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/computeImages/ec2(2).PNG?raw=true)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/computeImages/ec2(3).PNG?raw=true)
 
 Here’s a fuller rewrite of your reflection:
 

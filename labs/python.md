@@ -10,12 +10,12 @@ I worked through an introductory lab with Python programming using AWS Cloud9, l
 - Accessing the Terminal Session I opened a terminal by clicking the + icon and selecting "New Terminal." I used the pwd command to check my present working directory, which showed /home/ec2-user/environment. Then I checked the default Python version and explored other available Python versions installed in the environment.
 - Exercise 2: Writing My First Python Program I entered Python code into my file and ran it to see the results, successfully executing my first Python program in the Cloud9 environment.
 
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/pyEnvironment.PNG?raw=true)
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/pyTerminal.PNG?raw=true)
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/createFile.PNG?raw=true)
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/fileCreated.PNG?raw=true)
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/pyVersion.PNG?raw=true)
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/HelloWorld.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/pyEnvironment.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/pyTerminal.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/createFile.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/fileCreated.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/pyVersion.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/HelloWorld.PNG?raw=truee)
 
 # Challenges
 
@@ -43,15 +43,15 @@ Save the script and make a note of its location (absolute path) for future refer
 
 Note: Both Python 2 and Python 3 are installed on the Linux Host. It is recommended to use Python 3. To run a Python script using version 3, run the following command by replacing file.py with your f0ile name.
 
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/startLab.PNG?raw=true)
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/ec2Terminal.PNG?raw=true)
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/ec2Terminal2.PNG?raw=true)
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/python.PNG?raw=true)
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/primeNum.PNG?raw=true)
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/printPrimeNum.PNG?raw=true)
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/printPrimeNum2.PNG?raw=true)
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/printPrimeNum3.PNG?raw=true)
-![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/pythonImages/printPrimeNum4.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/startLab.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/ec2Terminal.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/ec2Terminal2.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/python.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/primeNum.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/printPrimeNum.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/printPrimeNum2.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/printPrimeNum3.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/pythonImages/printPrimeNum4.PNG?raw=true)
 
 # CHALLENGES
 File Handling Syntax: I struggled with properly closing the file after writing to it. I forgot to include the close() method initially, which could have caused issues with data not being saved properly to results.txt.
@@ -67,5 +67,7 @@ Here's what I learned from this challenge:
 I learned how to write and execute Python scripts on Linux, process numerical data, and save output to external files using the command line
 
 # Lab Complete 🎓
+
+
 
 
