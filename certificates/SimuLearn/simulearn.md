@@ -1,7 +1,7 @@
 DATABASE
 I looked into different cloud database options, learning when to use relational databases (like SQL) versus NoSQL databases, and how to pick the right database service for specific applications.
 
-![logo]()
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/certificates/Gallery/databasesInPractice.PNG?raw=true)
 
 NETWORKING
 I examined how to link various parts of MY cloud setup, create virtual networks (VPCs), handle traffic movement, and ensure services can talk to each other securely.
