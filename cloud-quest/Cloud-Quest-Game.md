@@ -30,7 +30,7 @@ I worked on connecting multiple VPCs so they could communicate with each other. 
 # Cloud Economics 📊
 I learned how to calculate and optimize cloud costs. I used the AWS pricing calculator to estimate monthly expenses before building anything, which helped me understand how different choices affect the final bill. I explored several cost optimization strategies, such as choosing Reserved Instances for long term stable workloads, using Spot Instances for flexible tasks, and right sizing instances so I do not pay for resources I am not actually using. I also learned about the AWS Free Tier and how to set up billing alarms to avoid unexpected charges. This experience showed me that managing costs is just as important as designing and building cloud solutions.
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/cloud-quest/questimages/cloudeconomics.PNG?raw=true)
 
 # Databases in Practice 🗄️💾
 I built my first relational database on Amazon RDS. I learned the difference between having my own database on EC2 and using RDS, where AWS handles backups, updates, and maintenance automatically for me. So I configured database settings like storage size, backup retention, and multi-AZ deployment for high availability. I then connected an application to the database and practiced storing and retrieving data. This taught me that managed databases save a ton of time and effort.
@@ -55,7 +55,7 @@ I learned the fundamental security practices in AWS. I worked with IAM-Identity 
 # Auto Healing and Scaling Applications 📈
 I created automatic healing and scaling of my application. I learned the use of Auto Scaling Groups that add servers automatically when traffic increases and remove them when traffic decreases so I will pay only for what I use. I configured health checks that detect server failures automatically and replace them with new ones without human intervention. Besides, I set up alarms in CloudWatch to monitor performance and scale accordingly. That showed me how the cloud could make applications self-managing and resilient.
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/cloud-quest/questimages/autohealingandscalingapplications.PNG?raw=true)
 
 # Highly Available Web Applications 🌐
 I built a complete, highly available web application that can survive server failures. I used servers deployed across multiple Availability Zones such that if one data center goes down due to problems, my app will remain running in another. I also configured an Elastic Load Balancer to equally distribute traffic between multiple servers and automatically route around failed ones. I then combined this with Auto Scaling Groups, RDS Multi-AZ databases, and S3 for static files to create a fully redundant system. This final quest has taught me how to architect professional, enterprise-grade applications that stay online 24/7 even when things go wrong
