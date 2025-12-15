@@ -11,7 +11,7 @@ I examined how to link various parts of MY cloud setup, create virtual networks 
 SECURITY
 I gained knowledge on protecting cloud resources, such as managing who has access to what through permissions, using encryption to safeguard data, and following best practices for securing AWS accounts.
 
-![logo]()
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/certificates/Gallery/core%20Security%20Concepts.PNG?raw=true)
 
 STORAGE
 I discovered various methods for storing files and data in the cloud, including object storage (S3), file systems, and when to use each type based on my quirements.
