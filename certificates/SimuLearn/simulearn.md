@@ -1,0 +1,21 @@
+DATABASE
+I looked into different cloud database options, learning when to use relational databases (like SQL) versus NoSQL databases, and how to pick the right database service for specific applications.
+
+![logo]()
+
+NETWORKING
+I examined how to link various parts of MY cloud setup, create virtual networks (VPCs), handle traffic movement, and ensure services can talk to each other securely.
+
+![logo]()
+
+SECURITY
+I gained knowledge on protecting cloud resources, such as managing who has access to what through permissions, using encryption to safeguard data, and following best practices for securing AWS accounts.
+
+![logo]()
+
+STORAGE
+I discovered various methods for storing files and data in the cloud, including object storage (S3), file systems, and when to use each type based on my quirements.
+
+![logo]()
+
+
