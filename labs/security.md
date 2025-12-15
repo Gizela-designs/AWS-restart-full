@@ -16,7 +16,17 @@ I worked through a hands-on lab with AWS Systems Manager Patch Manager, learning
 # Task 4: Verifying Patch Compliance
 - I checked the Compliance reporting tab in Patch Manager to verify that all my Linux and Windows instances were properly patched and compliant.
 
-
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/securityHardening1.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/securityHardening2.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/securityHardening3.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/Patch1.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/Patch2.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/modifyPatch.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/modifyPatch2.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/tag1.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/tag2.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/patchCompliance.PNG?raw=true)
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/patchCompliance2.PNG?raw=true)
 
 # WHAT I LEARNED
 
@@ -61,3 +71,4 @@ I copied the IAM Sign-in URL and tested each user in private windows:
 I learned how to control who can access what in AWS, how to organize users efficiently, and how policies actually affect what people can do once they log in.Retry
 
 # Lab complete 🎓
+
