@@ -55,7 +55,7 @@ I learned the fundamental security practices in AWS. I worked with IAM-Identity 
 # Auto Healing and Scaling Applications 📈
 I created automatic healing and scaling of my application. I learned the use of Auto Scaling Groups that add servers automatically when traffic increases and remove them when traffic decreases so I will pay only for what I use. I configured health checks that detect server failures automatically and replace them with new ones without human intervention. Besides, I set up alarms in CloudWatch to monitor performance and scale accordingly. That showed me how the cloud could make applications self-managing and resilient.
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/cloud-quest/questimages/autohealingandscalingapplications.PNG?raw=true)
 
 # Highly Available Web Applications 🌐
 I built a complete, highly available web application that can survive server failures. I used servers deployed across multiple Availability Zones such that if one data center goes down due to problems, my app will remain running in another. I also configured an Elastic Load Balancer to equally distribute traffic between multiple servers and automatically route around failed ones. I then combined this with Auto Scaling Groups, RDS Multi-AZ databases, and S3 for static files to create a fully redundant system. This final quest has taught me how to architect professional, enterprise-grade applications that stay online 24/7 even when things go wrong
