@@ -40,7 +40,7 @@ I built my first relational database on Amazon RDS. I learned the difference bet
 # First NoSQL Database 📦🚀
 I created my first NoSQL database using Amazon DynamoDB. I learned that NoSQL databases differ from the traditional SQL ones; they are faster, more flexible, and better for specific use cases, such as mobile apps or gaming. I created tables, put items within them with different attributes, and queried data. I found out about such concepts as partition keys, sort keys, and how DynamoDB scales itself automatically to sustain millions of requests. It showed me that not all data needs to be in the traditional table format.
 
-![logo](810%20×%20525%20pixels%20—%2037.83%30KB%20labs/networkingImages/awsCloud.PNG)
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/cloud-quest/questimages/FirstNoSQL.PNG?raw=true)
 
 # File Systems in the Cloud 📁
 I worked with several storage services in AWS and learned how each one is used. I used Amazon S3, the Simple Storage Service, to store files such as images, videos, and backups. I discovered that S3 is an object storage service that is extremely durable and very cost effective. I also explored Amazon EFS, the Elastic File System, which works like a shared network drive that many EC2 instances can access at the same time. I learned when each storage type is most suitable, using S3 for static files and backups, EBS for server level hard drives, and EFS for files that need to be shared across multiple servers.
