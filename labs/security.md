@@ -67,8 +67,23 @@ I copied the IAM Sign-in URL and tested each user in private windows:
 - user-2: Accessed EC2 and viewed instances but couldn't stop them (read-only). Had no S3 access.
 - user-3: Had full EC2 admin access and successfully stopped an instance.
 
+![1](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/IAM.PNG?raw=true)
+![2](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/IAM2.PNG?raw=true)
+![3](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/IAM3.PNG?raw=true)
+![4](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/IAM4.PNG?raw=true)
+![5](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/IAM5.PNG?raw=true)
+![6](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/IAM6.PNG?raw=true)
+![7](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/IAM7.PNG?raw=true)
+![8](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/IAM8.PNG?raw=true)
+![9](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/IAM9.PNG?raw=true)
+![10](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/IAM10.PNG?raw=true)
+![11](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/IAM11.PNG?raw=true)
+![12](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/IAM12.PNG?raw=true)
+![13](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/IAM13.PNG?raw=true)
+![14](https://github.com/Gizela-designs/AWS-restart-full/blob/main/labs/gallery/securityImages/IAM14.PNG?raw=true)
 # What I learnt
 I learned how to control who can access what in AWS, how to organize users efficiently, and how policies actually affect what people can do once they log in.Retry
 
 # Lab complete 🎓
+
 
