@@ -13,9 +13,5 @@ I gained knowledge on protecting cloud resources, such as managing who has acces
 
 ![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/certificates/Gallery/core%20Security%20Concepts.PNG?raw=true)
 
-STORAGE
-I discovered various methods for storing files and data in the cloud, including object storage (S3), file systems, and when to use each type based on my quirements.
-
-![logo]()
 
 
