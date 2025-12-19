@@ -110,7 +110,8 @@ The Problem: Invalid input like "xyz123" caused Lex to mark the intent as fulfil
 
 Root Cause: Our custom slot type QuizAnswer was configured with "Restrict to slot values" AND synonyms enabled. AWS doesn't allow this combination. Lex was blocking input before Lambda ever saw it.
 
-Solution: Changed slot configuration to "Expand values" and removed all synonyms. Now Lambda's normalizeAnswer() function validates input and provides helpful error messages like "Please answer with A, B, or C."
+Solution: 
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/LexChatbot/Challenge1.PNG?raw=true)
 
 What We Learned: Slot configuration directly impacts user experience. Restrictive settings create rigid interactions. Better to validate in code where you control the error messages.
 
@@ -119,6 +120,9 @@ The Problem: Expected users to type "B", but real users typed conversational res
 
 Root Cause: Initial code checked for exact matches: if (answer === 'B'). Real users are conversational, not programmatic.
 
+### Solutions
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/LexChatbot/Challenge2.PNG?raw=true)
+
 ### Challenge 4: Response Formatting
 The Problem: Bot responses ran together with no visual separation. Questions and answer options were hard to scan.
 
@@ -126,20 +130,7 @@ Root Cause: Standard line breaks insufficient for chat interface constraints.
 
 ### Solution:
 
-const formattedResponse = `
-═══════════════════════
-QUESTION 1 OF 3
-═══════════════════════
-
-Your EC2 instance needs to access S3.
-What should you use?
-
-A) Create an IAM User with access keys
-B) Attach an IAM Role to the EC2 instance
-C) Use your personal AWS credentials
-
-Type A, B, or C to answer.
-`;
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/LexChatbot/Challenge4.PNG?raw=true)
 
 ### What We Learned
 Technical Skills We Practiced
