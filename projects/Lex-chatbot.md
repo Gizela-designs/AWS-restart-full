@@ -35,10 +35,12 @@ This question format mirrors real-world decision-making and creates context that
 
 ## Architecture Overview
 
-![logo]()
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/LexChatbot/architecture.PNG?raw=true)
 
 ### The Serverless Design
 We split the bot at the neck: Amazon Lex is the mouth - listening, parsing, and replying in plain English - while AWS Lambda is the brain, crunching quiz logic, scores, and branching paths. The decoupling lets Lex perfect conversation flow and Lambda perfect pedagogy, so neither ever trips the other up.
+
+![](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/LexChatbot/solutionsArch.PNG?raw=true)
 
 ### The Key Components:
 
@@ -82,7 +84,8 @@ Project Requirements:
 - Natural language input handling (users type "I think B" instead of just "B")
 - Educational feedback explaining production consequences
 
-![logo]()
+### Lambda Architecture
+![logo](https://github.com/Gizela-designs/AWS-restart-full/blob/main/projects/gallery/LexChatbot/lambdaArch.PNG?raw=true)
 
 ## The Challenge & Solutions
 
